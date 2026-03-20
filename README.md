@@ -28,3 +28,4 @@ Each detection in this repository follows a standard "Detection Card" format:
 ---
 **Author:** [Tu Nombre]  
 **Certifications:** Microsoft Certified: Security Operations Analyst Associate (SC-200) - *In Progress*
+
