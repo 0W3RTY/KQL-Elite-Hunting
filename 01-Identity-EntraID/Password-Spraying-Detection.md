@@ -23,7 +23,7 @@ SigninLogs
 | where FailedAccountsCount >= threshold
 | project StartTime, EndTime, IPAddress, Location, FailedAccountsCount, TargetedAccountList, AppDisplayName
 | sort by FailedAccountsCount desc
-
+```
 
 🎯 MITRE ATT&CK Mapping
 Tactic: Initial Access (TA0001)
