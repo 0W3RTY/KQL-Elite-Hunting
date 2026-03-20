@@ -24,5 +24,5 @@ Each contribution to this repository follows a structured "Detection Intelligenc
 4. **Response Playbook:** Recommended immediate actions for the incident responder.
 
 ---
-**Maintained by:** [Tu Nombre/User]  
+**Maintained by:** [0w3rty]  
 *Focus: Threat Hunting | Detection Engineering | Blue Teaming*
