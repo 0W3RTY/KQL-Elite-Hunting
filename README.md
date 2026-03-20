@@ -1,31 +1,28 @@
-# KQL-Elite-Hunting
-Advanced KQL threat hunting queries and detection logic for Microsoft Security. Mapped to MITRE ATT&amp;CK framework.
-# 🛡️ Microsoft Security E5 Detection & Hunting Lab
+# 🛡️ KQL Elite Hunting Library
 
-Welcome to my professional cybersecurity portfolio. This repository serves as a technical showcase of my expertise in the **Microsoft Security Ecosystem (SC-200)**, specifically focusing on threat detection, hunting, and response.
+Welcome to **KQL-Elite-Hunting**. This repository is a specialized collection of high-fidelity detection queries and hunting logic designed for the Microsoft Security ecosystem. 
 
 
 
-## 🎯 Objective
-The goal of this library is to provide high-fidelity **KQL (Kusto Query Language)** queries mapped to the **MITRE ATT&CK** framework. Each detection is designed to minimize false positives and provide actionable insights for SOC analysts.
+## 🎯 Project Objective
+The focus of this library is to bridge the gap between raw telemetry and actionable security insights. Every query here is engineered to identify sophisticated adversary behaviors while maintaining a low false-positive rate in enterprise environments.
 
-## 🏗️ Repository Structure
-The content is organized by security pillars and attack vectors:
+## 🏗️ Architecture & Framework
+All detections are strictly mapped to the **MITRE ATT&CK®** framework to provide full visibility across the modern attack surface:
 
-* **01. Identity (Entra ID):** Focus on Initial Access, Persistence, and Privilege Escalation.
-* **02. Endpoint (Defender for Endpoint):** Detection of LOLDbins, Lateral Movement, and Ransomware patterns.
-* **03. Cloud Apps (Defender for Cloud Apps):** Monitoring SaaS exfiltration and anomalous behavior.
-* **04. Data Governance (Purview):** Identifying sensitive data leakage and Insider Risks.
-* **05. Automation (SOAR):** Logic Apps and Playbooks for automated incident response.
+* **01-Identity-EntraID:** Focus on compromised accounts, session hijacking, and MFA bypass techniques.
+* **02-Endpoint-Defender:** Monitoring for process injection, LOLDbins, and ransomware precursors.
+* **03-CloudApps-CASB:** Detection of data exfiltration and anomalous SaaS resource interaction.
+* **04-Information-Purview:** Data sensitivity monitoring and Insider Threat patterns.
+* **05-Automation-LogicApps:** Workflow definitions for automated containment and response (SOAR).
 
-## 🔍 Methodology
-Each detection in this repository follows a standard "Detection Card" format:
-1. **The Query:** Optimized KQL code.
-2. **Technical Context:** Why is this behavior suspicious?
-3. **MITRE Mapping:** Tactics and Techniques involved.
-4. **Triage & Remediation:** Steps for the analyst once the alert triggers.
+## 🔍 Detection Engineering Methodology
+Each contribution to this repository follows a structured "Detection Intelligence" format:
+1. **Logic:** The optimized KQL code.
+2. **Context:** Technical breakdown of the threat vector.
+3. **False Positive Analysis:** Known edge cases to consider during triage.
+4. **Response Playbook:** Recommended immediate actions for the incident responder.
 
 ---
-**Author:** [Tu Nombre]  
-**Certifications:** Microsoft Certified: Security Operations Analyst Associate (SC-200) - *In Progress*
-
+**Maintained by:** [Tu Nombre/User]  
+*Focus: Threat Hunting | Detection Engineering | Blue Teaming*
