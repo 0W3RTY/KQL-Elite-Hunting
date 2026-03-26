@@ -19,3 +19,19 @@
 STRATEGY_MAP: MITRE ATT&CK Framework
 OPTIMIZATION: Efficiency V (Token-based indexing)
 ----------------------------------------------------------------------------
+````
+
+⚔️ EQUIPMENT SLOT (Tech Stack)<p align="left"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Main_Hand-KQL_Diamond_Sword-blue%3Fstyle%3Dfor-the-badge%26logo%3Dmicrosoftazure%26logoColor%3Dwhite" /><img src="https://www.google.com/search?q=https://img.shields.io/badge/Off_Hand-Python_Enchanted_Pickaxe-green%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite" /></p>
+
+📜 SURVIVAL_GUIDE (Manual de Usuario)1. 
+🏰 Deployment (Microsoft Sentinel)La mayoría de las consultas están diseñadas como Hunting Queries o reglas de analítica.
+🧪 Alchemy Tip: Ajusta los umbrales (dcount, summarize) para que coincidan con el "bioma" (entorno) de tu organización.2. 
+⛏️ Mining Efficiency (Rendimiento)Indexing: Usamos has en lugar de contains para un minado de datos más rápido.Filtering: Aplicamos project y distinct de forma temprana para no desgastar la "durabilidad" de la memoria del sistema.
+🎒 INVENTORY (Repository Index)Biome / PillarTechnical CoverageRarityStatus
+👤 01-Identity-EntraIDMFA Fatigue, Password Spraying, CA Bypass.
+💎 EPICActive
+💻 02-Endpoint-DefenderLOLBins, Registry Persistence, Ransomware.
+⚔️ RAREIn Progress☁️ 03-CloudApps-CASBShadow IT, SaaS Exfiltration, Tor Access.
+⏳ LOCKEDPlanned
+🛡️ 04-Defender-CloudPort Scanning, SQL Anomalies, Storage Exposure.
+⏳ LOCKEDPlanned>
