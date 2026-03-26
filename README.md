@@ -21,8 +21,8 @@ Unlike generic query collections, this vault is built on **Detection Engineering
 | Biome / Pillar | Technical Coverage | Status |
 | :--- | :--- | :---: |
 | 👤 **[01-Identity-EntraID](./01-Identity-EntraID)** | MFA Fatigue, Targeted Password Spraying, CA bypass, Service Principal anomalies. | 💎 `Active` |
-| 💻 **[02-Endpoint-Defender](./02-Endpoint-Defender)** | Process injection, LOLBins (certutil/pwsh), Registry persistence, Ransomware precursors. | ⚔️ `In Progress` |
-| ☁️ **[03-CloudApps-CASB](./03-CloudApps-CASB)** | Shadow IT, mass SaaS exfiltration, anomalous access from Tor/VPN nodes. | ⏳ `Active` |
+| 💻 **[02-Endpoint-Defender](./02-Endpoint-Defender)** | Process injection, LOLBins (certutil/pwsh), Registry persistence, Ransomware precursors. | ⏳ `In Progress` |
+| ☁️ **[03-CloudApps-CASB](./03-CloudApps-CASB)** | Shadow IT, mass SaaS exfiltration, anomalous access from Tor/VPN nodes. | 💎 `Active` |
 | 🛡️ **[04-Defender-Cloud](./04-Defender-Cloud)** | Internal port scanning, Azure SQL anomalies, Public Storage exposure. | ⏳ `Coming Soon` |
 
 ---
