@@ -49,7 +49,7 @@ AzureDiagnostics
 | order by TimeGenerated desc
 ```
 
-### 🛠️ Remediation Steps (SOC L2 Playbook)
+### 🛠️ Remediation Steps
 Immediate IP Containment: If the query reveals persistent "Allowed" or "Detected" malicious payloads, block the clientIP_s at the Azure Front Door WAF level or via a Network Security Group (NSG).
 
 Impact Assessment: For events marked as "Detected but allowed", correlate the TimeGenerated with your Web Server logs (IIS/Nginx/App Service). Check the HTTP response code; a 200 OK followed by a large data transfer suggests a successful exploit.
