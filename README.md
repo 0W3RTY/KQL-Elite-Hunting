@@ -1,37 +1,55 @@
-# 🛡️ [root@0W3RTY-SENTINEL ~]$ cat /etc/motd
+# 🛡️ KQL Elite Hunting & Detection Engineering: The Vault
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=rect&color=36CD31&height=100&section=header&text=%20KQL%20ELITE%20HUNTING%20VAULT%20&fontSize=40&animation=fadeIn&fontAlignY=50" />
+  <img src="https://readme-typing-svg.demolab.com?font=Minecraft&size=22&pause=1000&color=36CD31&center=true&vCenter=true&width=600&lines=Welcome+to+The+Vault;High-Fidelity+Detection+Logic;Mastering+Microsoft+Security;Sharpness+V+KQL+Queries" alt="Typing SVG" />
 </p>
 
-## 🖥️ SYSTEM_STATUS: ONLINE 🟢
-> Accessing High-Fidelity Detection Database... [SUCCESS]
+Welcome to my personal **Threat Hunting** and **Advanced Detection** repository. This project is a specialized "Chest" for centralizing high-fidelity detection logic, from Cloud Identity to complex Endpoint behavioral patterns.
 
-```bash
-# RUNNING: Detection_Engine_v2.0.sh --verbose
+---
 
-[✔] 01-Identity-EntraID ....... [LOADED]  # Enchanted with Sharpness V (MFA/Spray)
-[✔] 02-Endpoint-Defender ..... [80% DONE] # Crafting: Ransomware_Slayer.kql
-[ ] 03-CloudApps-CASB ........ [PENDING]  # Quest Locked: Requires Level 20
-[ ] 04-Defender-Cloud ........ [PENDING]  # Quest Locked: Requires Level 25
+## 🎯 Repository Philosophy (The Golden Rules)
+Unlike generic query collections, this vault is built on **Detection Engineering** principles:
+1. **Alert Fatigue Reduction:** Optimized logic to minimize false positives (No "Ghost" alerts).
+2. **Operational Context:** Breaking down the threat vector and adversary behavior.
+3. **Strategic Mapping:** Direct alignment with **MITRE ATT&CK®** tactics and techniques.
 
-----------------------------------------------------------------------------
-STRATEGY_MAP: MITRE ATT&CK Framework
-OPTIMIZATION: Efficiency V (Token-based indexing)
-----------------------------------------------------------------------------
-````
+---
 
-⚔️ EQUIPMENT SLOT (Tech Stack)<p align="left"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Main_Hand-KQL_Diamond_Sword-blue%3Fstyle%3Dfor-the-badge%26logo%3Dmicrosoftazure%26logoColor%3Dwhite" /><img src="https://www.google.com/search?q=https://img.shields.io/badge/Off_Hand-Python_Enchanted_Pickaxe-green%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite" /></p>
+## 📂 Hunting Library Structure (The World Map)
 
-📜 SURVIVAL_GUIDE (Manual de Usuario)1. 
-🏰 Deployment (Microsoft Sentinel)La mayoría de las consultas están diseñadas como Hunting Queries o reglas de analítica.
-🧪 Alchemy Tip: Ajusta los umbrales (dcount, summarize) para que coincidan con el "bioma" (entorno) de tu organización.2. 
-⛏️ Mining Efficiency (Rendimiento)Indexing: Usamos has en lugar de contains para un minado de datos más rápido.Filtering: Aplicamos project y distinct de forma temprana para no desgastar la "durabilidad" de la memoria del sistema.
-🎒 INVENTORY (Repository Index)Biome / PillarTechnical CoverageRarityStatus
-👤 01-Identity-EntraIDMFA Fatigue, Password Spraying, CA Bypass.
-💎 EPICActive
-💻 02-Endpoint-DefenderLOLBins, Registry Persistence, Ransomware.
-⚔️ RAREIn Progress☁️ 03-CloudApps-CASBShadow IT, SaaS Exfiltration, Tor Access.
-⏳ LOCKEDPlanned
-🛡️ 04-Defender-CloudPort Scanning, SQL Anomalies, Storage Exposure.
-⏳ LOCKEDPlanned>
+| Biome / Pillar | Technical Coverage | Status |
+| :--- | :--- | :---: |
+| 👤 **[01-Identity-EntraID](./01-Identity-EntraID)** | MFA Fatigue, Targeted Password Spraying, CA bypass, Service Principal anomalies. | 💎 `Active` |
+| 💻 **[02-Endpoint-Defender](./02-Endpoint-Defender)** | Process injection, LOLBins (certutil/pwsh), Registry persistence, Ransomware precursors. | ⚔️ `In Progress` |
+| ☁️ **[03-CloudApps-CASB](./03-CloudApps-CASB)** | Shadow IT, mass SaaS exfiltration, anomalous access from Tor/VPN nodes. | ⏳ `Coming Soon` |
+| 🛡️ **[04-Defender-Cloud](./04-Defender-Cloud)** | Internal port scanning, Azure SQL anomalies, Public Storage exposure. | ⏳ `Coming Soon` |
+
+---
+
+## 🛠️ Implementation & Triage Guide (Survival Manual)
+
+### 1. Deployment in Microsoft Sentinel 🏰
+Queries are designed as **Hunting Queries** or **Analytics Rules**. 
+> ⚠️ **Note:** Adjust thresholds (`dcount`, `summarize`) based on your organization's unique traffic baseline.
+
+### 2. Performance Optimization (Efficiency V) ⛏️
+* **Token-based Search:** Prioritizing `has` over `contains` to reduce CPU cycles.
+* **Memory Management:** Early use of `project` and `distinct` to minimize result footprint.
+
+### 3. Triage & Remediation 🧪
+Check the **"Analyst Notes"** in each file. If a TP (True Positive) is found, correlate the source IP with `SigninLogs` and `AuditLogs` to track lateral movement.
+
+---
+
+## 👋 Collaboration & Community
+Cybersecurity is a team sport. If you find a bug or have a suggestion to harden the logic, please open an **Issue** or submit a **Pull Request**.
+
+**Connect:** Reach out on LinkedIn to discuss Detection Engineering strategies and Blue Team operations.
+
+---
+<p align="center">
+  <i>“In God we trust, all others we monitor with KQL.”</i>
+</p>
+
+**Author:** 0W3RTY | **Difficulty:** Hardcore | **License:** MIT
