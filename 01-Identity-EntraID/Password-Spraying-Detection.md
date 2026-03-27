@@ -4,6 +4,7 @@
 This detection identifies a **Password Spraying** pattern where a single source IP attempts to authenticate against a high number of unique user accounts within a short timeframe. 
 
 Unlike a traditional Brute Force attack (which targets one account with many passwords), Password Spraying targets many accounts with a few common passwords to stay under account lockout thresholds and evade simple detection logic.
+
 ---
 
 ## 🛠️ KQL Query
@@ -28,9 +29,11 @@ SigninLogs
 ---
 
 ## 🎯 MITRE ATT&CK Mapping
+
 Tactic: Initial Access (TA0001)
 
 Technique: Brute Force: Password Spraying (T1110.003)
+
 ---
 
 ## 💡 Analyst Notes (Triage Guide)
@@ -39,6 +42,7 @@ IP Reputation: Check if the IPAddress is associated with known TOR exit nodes, p
 User Impact: Review the TargetedAccountList. Are these high-value targets (Admins, Executives)?
 
 Correlation: Check SigninLogs for any successful logins (ResultType == 0) from the same IP address immediately following the spray. This would indicate a compromised account.
+
 ---
 
 ## 🛡️ Remediation Steps
