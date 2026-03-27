@@ -74,10 +74,3 @@ Why? Attackers often add their own Authenticator app/phone number as a backup to
 
 #### 4️⃣ Financial Impact Analysis
 Audit the Sent Items folder. If the attacker has already sent emails to vendors with "updated bank details," notify the Legal and Finance departments immediately to halt pending payments.
-
-<p align="center">
-<i>"In BEC, visibility is the only shield. Find the rule, stop the theft."</i>
-
-
-🎮 <b>Difficulty: Expert | XP: +100 | Status: Identity Vault Updated</b>
-</p>
