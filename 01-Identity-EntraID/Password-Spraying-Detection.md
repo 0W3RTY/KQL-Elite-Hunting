@@ -25,7 +25,6 @@ SigninLogs
 | project StartTime, EndTime, IPAddress, Location, FailedAccountsCount, TargetedAccountList, AppDisplayName
 | sort by FailedAccountsCount desc
 ```
----
 
 ## 🎯 MITRE ATT&CK Mapping
 
